@@ -12,5 +12,11 @@ namespace Web.Tests
 			var i = 1;
 			Assert.IsTrue(i == 1);
 		}
+
+		[TestMethod]
+		public void TestMethod2()
+		{
+			Assert.Fail("Ooooops, failed unit test");
+		}
 	}
 }
