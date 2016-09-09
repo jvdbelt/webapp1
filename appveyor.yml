@@ -3,6 +3,10 @@ build:
   publish_wap: true               # package Web Application Projects (WAP) for Web Deploy
   verbosity: minimal
 
+test:
+  assemblies:
+    - '**\*.tests.dll'
+
 deploy:
   provider: Environment
   name: test
