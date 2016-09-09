@@ -2,3 +2,7 @@ version: 1.0.{build}
 build:
   publish_wap: true               # package Web Application Projects (WAP) for Web Deploy
   verbosity: minimal
+
+deploy:
+  provider: Environment
+  name: test
